@@ -2,7 +2,7 @@
 
 This is a simple React app with Kanban functionality.
 
-![Aella Website Header](https://github.com/somtoUgeh/kanban-test/raw/master/media/image.png)
+![Kanban Board Header](https://github.com/SomtoUgeh/kanban-test/raw/main/media/image.png)
 
 ## Deployed app
 
