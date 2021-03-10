@@ -17,7 +17,6 @@
 }
 
 .task-card-wrapper button {
-  visibility: hidden;
   padding: 5px 10px;
   border: 0;
   background-color: transparent;
@@ -25,6 +24,12 @@
   border-radius: 2px;
   transition: background-color 0.2s ease-in-out;
   margin-left: 0.75rem;
+}
+
+@media (min-width: 1024px) {
+  .task-card-wrapper button {
+    visibility: hidden;
+  }
 }
 
 .task-card-wrapper:hover button {

@@ -6,7 +6,7 @@ This is a simple React app with Kanban functionality.
 
 ## Deployed app
 
-Link here: [Kanban Board](https://kanban-test.vercel.app/)
+Link here: [Kanban Board](https://kanban-test-rouge.vercel.app/)
 
 ## Build setup
 

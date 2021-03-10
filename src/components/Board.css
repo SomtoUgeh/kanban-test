@@ -1,11 +1,21 @@
-h1 {
-  color: white;
-  margin-bottom: 2rem;
-}
-
 .board {
   padding: 1.5rem;
   margin: 0;
+}
+
+h1 {
+  color: white;
+  margin-bottom: 1.5rem;
+}
+
+details {
+  color: white;
+  margin-bottom: 2rem;
+  cursor: text;
+}
+
+summary {
+  cursor: pointer;
 }
 
 .lists {

@@ -9,6 +9,26 @@ const FullBoard = () => {
     <div className="board">
       <h1>My Kanban Board</h1>
 
+      <details>
+        <summary>How to use</summary>
+        <ol>
+          <li>
+            Create columns by clicking on the <kbd>Add a column</kbd> button
+          </li>
+          <li>Edit column title by double clicking on the title itself</li>
+          <li>
+            Delete column by clicking on the <kbd>X</kbd> opposite the title
+          </li>
+          <li>
+            Add new tasks by clicking on the <kbd>Add new task</kbd> button
+          </li>
+          <li>Edit task title by double clicking on the title itself</li>
+          <li>
+            Delete cards by hovering on the cards and clicking on the <kbd>X</kbd>
+          </li>
+        </ol>
+      </details>
+
       <div>
         <ul className="lists">
           {lists.map((list, index) => (

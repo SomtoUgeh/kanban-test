@@ -28,14 +28,8 @@ export const Card = props => {
   return (
     <div className="card-item">
       <div className={`${isEditingTask ? "editing" : ""}`}>
-        <div className="task-card-wrapper">
-          <div
-            id={[timeId]}
-            draggable="true"
-            className="task-card"
-            onDragStart={onDragStart}
-            onDoubleClick={handleEditingClick}
-          >
+        <div className="task-card-wrapper" id={[timeId]} draggable="true" onDragStart={onDragStart}>
+          <div className="task-card" onDoubleClick={handleEditingClick}>
             {taskText}
           </div>
 
