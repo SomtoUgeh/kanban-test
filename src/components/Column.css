@@ -1,0 +1,64 @@
+.header {
+  padding-bottom: 0.5rem;
+}
+
+.heading-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0.5rem 0;
+}
+
+.heading-container h2 {
+  margin: 0;
+  font-size: 1.25rem;
+  padding-left: 0.5rem;
+  cursor: pointer;
+  flex: 1;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+}
+
+.heading-container h2:hover {
+  background-color: #e0e0e0;
+}
+
+.heading-container button {
+  border: 0;
+  padding: 5px 10px;
+  background-color: transparent;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.heading-container button:hover {
+  border-radius: 4px;
+  background-color: #dedbdb;
+}
+
+.header.editing .heading-container {
+  display: none;
+}
+
+.header.editing .edit {
+  display: block;
+}
+
+.list {
+  padding: 0.75rem;
+  border-radius: 4px;
+  background-color: #e0e0e0;
+}
+
+.list .list-item {
+  padding: 0;
+
+  display: flex;
+
+  background: #ffffff;
+  margin-bottom: 0.75rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+
+  cursor: pointer;
+}
