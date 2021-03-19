@@ -53,9 +53,7 @@ function BoardProvider(props) {
     localStorage.setItem("dragInfo", JSON.stringify(dragInfo));
   };
 
-  const onDragOver = e => {
-    e.preventDefault();
-  };
+  const onDragOver = e => e.preventDefault();
 
   const onDrop = (e, listNum) => {
     const parsedLS = [...getCurrentState()];
